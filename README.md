@@ -4,6 +4,8 @@
 <p>Interactive weather dashboard allows the user to search for a city's weather and is automatically shown the temperature, humidity, wind speed and uv index. It also helps the user plan ahead by providing a five day forecast.</p>
 
 <h2>Screenshots</h2>
+
+<img width="110" alt="Screen Shot 2020-10-06 at 10 34 08 PM" src="https://user-images.githubusercontent.com/70531552/95281104-69b13c80-0824-11eb-9316-50ec2d0d3b1b.png">
 <img width="110" alt="Screen Shot 2020-10-06 at 10 34 08 PM" src="https://user-images.githubusercontent.com/70531552/95280937-20f98380-0824-11eb-847c-1b7b48a94866.png">
 <img width="108" alt="Screen Shot 2020-10-06 at 10 31 13 PM" src="https://user-images.githubusercontent.com/70531552/95280712-aa5c8600-0823-11eb-9705-352d71e0f27e.png">
 <img width="111" alt="Screen Shot 2020-10-06 at 10 32 03 PM" src="https://user-images.githubusercontent.com/70531552/95280769-c4966400-0823-11eb-81cd-4fc6353abb44.png">
