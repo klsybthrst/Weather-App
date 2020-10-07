@@ -1,0 +1,38 @@
+.footer {
+    /* border: solid black 4px; */
+    margin: 50px 0px 0px;
+}
+
+.jumbotron {
+    margin-top: 50px;
+}
+
+.currentWeatherData {
+    text-align: center;
+}
+
+.vhighUV {
+    background-color: red;
+}
+
+.highUV {
+    background-color: orange;
+}
+.modUV {
+    background-color: yellow;
+}
+.lowUV {
+    background-color: green;
+}
+
+.btn {
+    /* background-color: cornflowerblue; */
+    /* : white; */
+    /* border-color: cornflowerblue; */
+    margin-top: 50px;
+}
+
+body {
+    background-color: #AEC6F2;
+}
+
