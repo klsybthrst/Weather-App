@@ -143,20 +143,23 @@ function currentweatherdata(name) {
                     .then(function(response) {
                         console.log(`response is:`, response);
                         var UVIndex = response.value
-                        document.querySelector(".uvIndex").textContent = "UV Index: " + UVIndex
-                        console.log (UVIndex);
+                        // document.querySelector(".uvIndex").textContent = "UV Index: " + UVIndex;
+                        $(`
+                        <div>UV Index: <span class="uvIndexColour">${UVIndex}</span></div>
+                        `).appendTo('.uvIndex');
+                        // console.log (response);
 
                             if (UVIndex < 3) {
-                                document.querySelector(".uvIndex").classList.add("lowUV");
+                                document.querySelector(".uvIndexColour").classList.add("lowUV");
                             } 
                             if (UVIndex > 2 && UVIndex < 6) {
-                                document.querySelector(".uvIndex").classList.add("modUV");
+                                document.querySelector(".uvIndexColour").classList.add("modUV");
                             }
                             if (UVIndex > 5 && UVIndex < 8) {
-                                document.querySelector(".uvIndex").classList.add("highUV");
+                                document.querySelector(".uvIndexColour").classList.add("highUV");
                             }
                             if (UVIndex > 8) {
-                                document.querySelector(".uvIndex").classList.add("vhighUV");
+                                document.querySelector(".uvIndexColour").classList.add("vhighUV");
                             }    
                     })
         });
