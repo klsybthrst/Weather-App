@@ -5,7 +5,7 @@ var userInput = document.getElementById("search-Input");
 var searchButton = document.getElementById("searchButton");
 var searchHistory = getSearchHistory();
 
-//localStorage
+//localStorageandSearch
 function searchCity(event) {
     event.preventDefault();
     var input = userInput.value;
