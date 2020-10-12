@@ -143,7 +143,6 @@ function currentweatherdata(name) {
                     .then(function(response) {
                         console.log(`response is:`, response);
                         var UVIndex = response.value
-                        // document.querySelector(".uvIndex").textContent = "UV Index: " + UVIndex;
                         $(`
                         <div>UV Index: <span class="uvIndexColour">${UVIndex}</span></div>
                         `).appendTo('.uvIndex');
