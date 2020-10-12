@@ -135,7 +135,7 @@ function currentweatherdata(name) {
           var lon = response.coord.lon;
             console.log(lat);
             console.log(lon);
-            var UVqueryURL = "http://api.openweathermap.org/data/2.5/uvi?lat=" + lat + "&lon=" + lon + "&appid=" + WeatherAPIKey
+            var UVqueryURL = "https://api.openweathermap.org/data/2.5/uvi?lat=" + lat + "&lon=" + lon + "&appid=" + WeatherAPIKey
             $.ajax({
                         url: UVqueryURL,
                         method: "GET"
