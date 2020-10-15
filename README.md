@@ -18,7 +18,10 @@
   <li>Bootstrap</li>
   <li>Font Awesome</li>
   <li>https://medium.com/swlh/a-simple-javascript-weather-application-and-json-parsing-abd21ff0ea9a</li>
-</ol>  
+</ol> 
+
+<h2>Link to Website</h2>
+<p>https://klsybthrst.github.io/Weather-App/</p>
   
 <h2>Roadmap</h2>
 <p>I would like to add more dramatic CSS. Possibly adding moving weather icons? There is also a lot of white space, so I would consider adding more information to the dashboard. Maybe a conversion button? Options when the city name could be multiple places (ie London UK vs London Ont)</p>
